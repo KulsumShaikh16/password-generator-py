@@ -31,7 +31,7 @@ def check_strength(password):
     else:
         return "🔴 Weak 🚨"
 
-st.title("🔒 Enhanced Password Generator")
+st.title("🔒 Password Generator")
 
 # Session state to remember password
 if "password" not in st.session_state:
